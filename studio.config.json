@@ -21,7 +21,8 @@
     [
      "button",
      "switch",
-     "select"
+     "select",
+     "label"
     ]
    ],
    [
@@ -33,5 +34,11 @@
     ]
    ]
   ]
+ },
+ "dependencies": {
+  "autoInstall": false
+ },
+ "doc": {
+  "markdownEngine": "mdjs"
  }
 }

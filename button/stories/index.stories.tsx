@@ -3,15 +3,28 @@ import { Button } from '../index';
 
 export const primary = () => (
   <>
-    <Button size="small" onPress={() => alert('Button pressed!')}>
-      Small
-    </Button>
-    <Button size="medium" onPress={() => alert('Button pressed!')}>
-      Medium
-    </Button>
-    <Button size="large" onPress={() => alert('Button pressed!')}>
-      Large
-    </Button>
+    <div>
+      <Button size="small" onPress={() => alert('Button pressed!')}>
+        Small
+      </Button>
+      <Button size="medium" onPress={() => alert('Button pressed!')}>
+        Medium
+      </Button>
+      <Button size="large" onPress={() => alert('Button pressed!')}>
+        Large
+      </Button>
+    </div>
+    <div>
+      <Button size="small" onPress={() => alert('Button pressed!')}>
+        Small
+      </Button>
+      <Button size="medium" onPress={() => alert('Button pressed!')}>
+        Medium
+      </Button>
+      <Button size="large" onPress={() => alert('Button pressed!')}>
+        Large
+      </Button>
+    </div>
   </>
 );
 
